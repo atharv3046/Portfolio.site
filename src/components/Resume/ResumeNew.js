@@ -116,22 +116,8 @@ function ResumeNew() {
             </Document>
           </Row>
 
-          {/* ── Bottom Action Row ── */}
-          <Row className="resume-btn-row" style={{ paddingBottom: "60px" }}>
-            <Col className="d-flex justify-content-center flex-wrap gap-3">
-              <a href={pdf} download="Atharv_Chaturvedi_Resume.pdf" className="resume-action-btn primary-btn">
-                <AiOutlineDownload style={{ marginRight: 8 }} />
-                Download CV
-              </a>
-              <button onClick={handlePrint} className="resume-action-btn secondary-btn">
-                <FaExternalLinkAlt style={{ marginRight: 8 }} />
-                Open in New Tab
-              </button>
-            </Col>
-          </Row>
-
           {/* ── Social Connect ── */}
-          <div className="resume-social-section">
+          <div className="resume-social-section" style={{ position: "relative", zIndex: 10 }}>
             <p className="resume-skills-heading">Connect With Me</p>
             <div className="resume-social-links">
               {socialLinks.map((link, i) => (
@@ -142,6 +128,7 @@ function ResumeNew() {
                   rel="noreferrer"
                   className="resume-social-pill"
                   title={link.label}
+                  style={{ position: "relative", zIndex: 10 }}
                 >
                   {link.icon}
                   <span>{link.label}</span>

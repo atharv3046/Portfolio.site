@@ -16,6 +16,7 @@ const projects = [
       "AI-powered Hindi chatbot for first-time smartphone users covering UPI safety, scam detection, and government app usage. Trained an ML model on Hindi SMS Spam Dataset achieving 90%+ accuracy. Integrated Tesseract OCR for screenshot scam detection and Speech-to-Text API for voice input, cutting support interactions by ~35%.",
     tags: ["Flask", "GPT API", "Scikit-learn", "Tesseract OCR", "Firebase", "Python"],
     ghLink: "https://github.com/atharv3046/smartsathi",
+    demoLink: "https://sahayak-ss.vercel.app/",
   },
   {
     imgPath: studysync,
@@ -85,13 +86,14 @@ function Projects() {
         </Row>
 
         {/* Bottom CTA */}
-        <div className="proj-cta">
+        <div className="proj-cta" style={{ position: "relative", zIndex: 10 }}>
           <p className="proj-cta-text">Want to see more?</p>
           <a
             href="https://github.com/atharv3046"
             target="_blank"
             rel="noreferrer"
             className="proj-cta-btn"
+            style={{ position: "relative", zIndex: 10 }}
           >
             View All on GitHub →
           </a>
