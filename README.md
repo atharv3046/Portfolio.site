@@ -7,7 +7,7 @@
 
 [![built-with-love](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
 [![made-with-javascript](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![made-with-python](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+
 
 </center>
 
